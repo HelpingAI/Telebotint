@@ -1,0 +1,5 @@
+Flask
+telebot
+google-generativeai
+requests
+gunicorn
