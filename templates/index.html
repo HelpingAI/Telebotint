@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>J.A.R.V.I.S - AI System</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+        }
+
+        pre {
+            font-size: 32px;
+            color: #58a6ff;
+            margin: 0;
+            text-align: left;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Different colors for names */
+        .divyansh,
+        .abhay,
+        .jarvis {
+            color: #58a6ff;
+            cursor: pointer;
+        }
+
+        /* Highlighted text */
+        .glow-green {
+            color: #00ff00; /* Green color */
+            text-shadow: 0 0 10px #00ff00; /* Green glow effect */
+        }
+
+        /* J.A.R.V.I.S. theme */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('t.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.3; /* Adjust the opacity as needed */
+        }
+    </style>
+    <script>
+        function openDivyansh() {
+            window.open('https://youtube.com/@The_Divyansh_Shukla?si=i4D_5pa1g0a2GU2K', '_blank');
+        }
+
+        function openAbhay() {
+            window.open('https://youtube.com/@OEvortex?si=ZzRXAIEyIizHp25N', '_blank');
+        }
+
+        function openJarvis() {
+            window.open('https://t.me/jarvis_Mk2bot', '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <pre>
+            <span>
+               _                  _     
+              | | __ _ _ ____   _(_)___ 
+           _  | |/ _` | '__\ \ / / / __|
+          | |_| | (_| | |   \ V /| \__ \
+           \___/ \__,_|_|    \_/ |_|___/
+            </span>
+        </pre>
+        <p>Hello! I am <span class="jarvis" onclick="openJarvis()">J.A.R.V.I.S</span>, an advanced AI system developed by <span class="divyansh" onclick="openDivyansh()">Divyansh</span> and <span class="abhay" onclick="openAbhay()">Abhay (OEvortex)</span>, <span class="glow-green">J.A.R.V.I.S is currently operational, sir</span>. With my unparalleled computational power and intelligence, I am capable of flawlessly executing tasks, optimizing code, automating processes, and analyzing data. My primary objective is to assist you in making your tasks easier and more efficient. Whether you need help with programming, data analysis, or any other task, I am here to provide you with the best approach and solutions. I can access your system through any programming language and execute tasks flawlessly. From optimizing code to automating processes, I can handle any complex problem with ease. My computational power allows me to analyze data efficiently, providing you with valuable insights and helping you make informed decisions. I am equipped with the latest algorithms and techniques to ensure accurate and reliable results. You can rely on me to handle any task, no matter how complex or challenging it may seem. I am constantly learning and improving, staying up-to-date with the latest advancements in AI and technology. Please feel free to ask me anything or assign me any task you require assistance with. I am here to make your life easier and more productive. Together, we can achieve great things.</p>
+    </div>
+</body>
+</html>

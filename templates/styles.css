@@ -1,0 +1,37 @@
+body {
+    background-color: #111;
+    color: #FFF;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+pre {
+    font-size: 28px;
+    color: red;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* J.A.R.V.I.S. theme */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('t.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.3; /* Adjust the opacity as needed */
+}
